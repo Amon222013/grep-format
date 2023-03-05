@@ -1,0 +1,22 @@
+,
+      {
+        "submenu": "grep-format_submenu",
+        "group": "6_copypath"
+      },
+      {
+        "submenu": "grep-format_submenu",
+        "group": "6_copypath"
+      }],
+      "grep-format_submenu":[
+        {
+          "command": "submenu",
+          "group": "6_copypath"
+        }
+      ]
+    },
+    "submenus": [
+      {
+        "id": "grep-format_submenu",
+        "label": "format tsv"
+      }
+    ]
