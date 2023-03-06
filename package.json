@@ -2,7 +2,7 @@
   "name": "grep-format",
   "displayName": "grep-format",
   "description": "grep result formatter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "4mon",
   "repository": {
     "type": "git",
@@ -19,16 +19,20 @@
   ],
   "main": "./src/extension.js",
   "contributes": {
-    "commands": [{
-      "command": "grepFormat",
-      "title": "grep format"
-    }],
-    "menus": {
-      "editor/context": [{
-        "when": "editorHasSelection",
+    "commands": [
+      {
         "command": "grepFormat",
-        "group": "6_copypath"
-      }]
+        "title": "grep format"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorHasSelection",
+          "command": "grepFormat",
+          "group": "6_copypath"
+        }
+      ]
     }
   },
   "scripts": {
