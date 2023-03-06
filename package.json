@@ -6,7 +6,7 @@
   "publisher": "4mon",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Amon222013/grep-format"
   },
   "engines": {
     "vscode": "^1.74.0"
@@ -20,7 +20,7 @@
   "main": "./src/extension.js",
   "contributes": {
     "commands": [{
-      "command": "grep-Format",
+      "command": "grepFormat",
       "title": "grep format"
     }],
     "menus": {
