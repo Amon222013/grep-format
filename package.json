@@ -18,6 +18,7 @@
     "*"
   ],
   "main": "./src/extension.js",
+  "browser": "./src/extension.js",
   "contributes": {
     "commands": [
       {
